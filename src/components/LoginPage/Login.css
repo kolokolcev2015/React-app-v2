@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  outline: none;
+}
+p{
+  margin:0;
+}
+
+input{
+  padding: 0;
+  margin: 0;
+}
+input::placeholder{
+  color : #B5B5B5;
+  color : #B5B5B5;
+}
+.Login{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 15%;
+  height: 15%;
+}
+
+.RectLogin{
+  text-align: center;
+  font-size: 22pt;
+}
+.log{
+  margin-top: 30px;
+}
+.Pass{
+  border: none;
+  border-bottom : 2px solid #fff;
+  min-width: 100%;
+  font-size: 14pt;
+  min-height: 40px;
+  height: 50px;
+}
+
+.Pass:focus{
+  border-bottom : 2px solid #53C100;
+}
+.Pass:hover{
+  border-bottom : 2px solid #53C100;
+}
+.btnLogin{
+  padding: 0;
+  margin-top: 5%;
+  min-width: 100%;
+  min-height: 20px;
+  height: 50px;
+}
+.btn{
+  font-size: 12pt;
+  font-weight: bold;
+  color : #fff;
+  background-color: #53C100;
+  border: 2px solid #53C100;
+  border-radius: 2px;
+}
+.btn:hover{
+  background-color: white;
+  color: #53C100;
+
+}
+
+.bottomBorder{
+  color: red;
+  font-size: 14pt;
+}
+
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 860px){
+  .rows{
+    font-size: 10pt;
+  }
+}
+@media only screen
+and (min-device-width : 0px)
+and (max-device-width : 360px){
+  .rows{
+    font-size: 8pt;
+  }
+}
+@media only screen
+and (min-device-width : 0px)
+and (max-device-width : 480px){
+  .content{
+    max-width: none;
+  }
+
+}
+
+
